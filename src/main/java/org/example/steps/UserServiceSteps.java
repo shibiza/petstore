@@ -38,6 +38,5 @@ public class UserServiceSteps {
         log.info("Status code after trying delete user by username : " + response.getStatusCode());
         return response.getStatusCode();
     }
-
 }
 
