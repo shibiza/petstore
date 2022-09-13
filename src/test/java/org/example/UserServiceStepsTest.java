@@ -36,8 +36,8 @@ public class UserServiceStepsTest {
     @Test
     public void testFindUserByUserName(){
         int responceCode = userServiceSteps.findUserByUserName("admin");
-     //   Assert.assertEquals(200, responceCode);
-     Assert.assertEquals(200, responceCode);
+        //   Assert.assertEquals(200, responceCode);
+        Assert.assertEquals(200, responceCode);
     }
     @Test
     public void testDeleteUserByUserName(){
